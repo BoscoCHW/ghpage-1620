@@ -1,0 +1,35 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+.signUpForm {
+    width: 50vw;
+    padding: 0.5rem;
+    border: #800000 solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.signUpFormItem {
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+
+}
+.signUpFormItem label {
+    flex: 0 0 25%;
+}
+
+.signUpFormItem input, .signUpFormItem textarea {
+    flex: 0 0 75%;
+}
+
+
+input[type="submit"] {
+    margin: 0.5rem;
+
+}

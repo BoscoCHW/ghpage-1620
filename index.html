@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="./CSS/style.css">
+	<title>Send Message</title>
+</head>
+<body>
+
+	<h1>Send me a message</h1>
+
+	<p>
+		Enter your name, email and write a message to me!
+	</p>
+
+	<form class="signUpForm" method="POST" action="https://simple-form.com/bosco.chw@gmail.com">
+		<div class="signUpFormItem">
+			<label for="name">Name: </label>
+			<input type="text" name="name" id="name" placeholder="Your name" required>
+		</div>
+
+		<div class="signUpFormItem">
+			<label for="email">Email: </label>
+			<input type="email" name="replyTo" id="email" placeholder="Your email" required>
+		</div>
+		<div class="signUpFormItem">
+			<label for="message">Message: </label>
+			<textarea name="message" id="message" placeholder="Your message" required></textarea>
+		</div>
+
+
+		<input type="submit" value="Send">
+
+	</form>
+</body>
+</html>
